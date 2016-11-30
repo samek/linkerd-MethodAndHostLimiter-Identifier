@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88c10844-8985-4839-a30e-3acd75990a9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" afterPath="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="plugins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,12 +82,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <first_editor relative-caret-position="510">
+                <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -129,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RateLimmiter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RateLimmiter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -180,9 +180,9 @@
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/UDPClient.java" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.scala" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/config-sample.yaml" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1153,7 +1153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1480502751839</updated>
       <workItem from="1480502764603" duration="9516000" />
-      <workItem from="1480515681199" duration="3599000" />
+      <workItem from="1480515681199" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="Readme">
       <created>1480516072520</created>
@@ -1197,11 +1197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480518393613</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Limits into the config.">
+      <created>1480519583722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1480519583722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13115000" />
+    <option name="totallyTimeSpent" value="13217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="592" y="23" width="1770" height="1246" extended-state="0" />
@@ -1372,22 +1379,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

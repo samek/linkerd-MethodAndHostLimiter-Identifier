@@ -31,3 +31,6 @@ routers:
     banIntervalCleanUp: 600
     banWindowTime: 10
 ```
+
+Where banThreshold is how many times one ip can access any service in banWindowTime (seconds). 
+If it passes banThreshold it will be banned for the duration of banIntervalCleanUp (seconds)
