@@ -13,8 +13,7 @@ class MethodAndHostLimiterIdentifierInitializer extends IdentifierInitializer {
 object MethodAndHostLimiterIdentifierInitializer extends MethodAndHostLimiterIdentifierInitializer
 
 object MethodAndHostLimiterIdentifierConfig {
-  System.out.println("POVEM KAKO MI JE IME--NEW")
-  val kind = "si.poponline.HttpIdentifier"
+  val kind = "si.poponline.MethodAndHostLimiter"
 }
 
 class MethodAndHostLimiterIdentifierConfig extends HttpIdentifierConfig {

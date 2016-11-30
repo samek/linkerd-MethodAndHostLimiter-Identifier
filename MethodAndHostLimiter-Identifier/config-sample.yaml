@@ -2,7 +2,7 @@ routers:
 - protocol: http
   label: incoming
   identifier:
-    kind: si.poponline.HttpIdentifier
+    kind: si.poponline.MethodAndHostLimiter
   interpreter:
     kind: io.l5d.namerd
     dst: /$/inet/namerd-public.marathon.mesos/4100

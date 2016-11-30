@@ -53,7 +53,7 @@ case class MethodAndHostLimiterIdentifier(
               dst = mkPath(Path.Utf8("1.1", req.method.toString, host.toLowerCase) ++ suffix(req))
             } else {
 
-              dst = mkPath(Path.Utf8("1.1", req.method.toString, "api.24ur.si") ++ suffix(req))
+              dst = mkPath(Path.Utf8("1.1", req.method.toString, "devnull") ++ suffix(req))
             }
 
           } else {

@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/headerClassifier.iml" filepath="$PROJECT_DIR$/.idea/modules/headerClassifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/headerClassifier-build.iml" filepath="$PROJECT_DIR$/.idea/modules/headerClassifier-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugins.iml" filepath="$PROJECT_DIR$/.idea/modules/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkerd-methodandhostlimiter-identifier.iml" filepath="$PROJECT_DIR$/.idea/modules/linkerd-methodandhostlimiter-identifier.iml" />
     </modules>
   </component>
 </project>
