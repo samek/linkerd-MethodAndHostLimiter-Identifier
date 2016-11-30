@@ -51,7 +51,7 @@ public class RateLimmiter {
             for (Map.Entry<String, Integer> entry : this.iplist.entrySet())
             {
                 //System.out.println(entry.getKey() + " - " + entry.getValue());
-                if (entry.getValue()>10)
+                if (entry.getValue()>this.banThreshold)
                     UDPClient.Send(entry.getKey(), entry.getValue());
             }
             this.lastDelete = this.get_current_time();
