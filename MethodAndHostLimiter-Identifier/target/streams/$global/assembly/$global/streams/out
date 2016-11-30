@@ -1,0 +1,39 @@
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[0minfo[0m] [0mSHA-1: 89dc02356d0b621aa9bafa7d6e4a4eaa17cb900b[0m
+[0m[[0minfo[0m] [0mPackaging /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/scala-2.11/MethodAndHostLimiter-Identifier-assembly-0.1-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	META-INF/services/io.buoyant.linkerd.IdentifierInitializer[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-10a4586ca5cd1c63b86edca21909dcf0816e57f0.tmp[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifier$$anonfun$$lessinit$greater$default$3$1.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifier$$anonfun$$lessinit$greater$default$3$1.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifier$$anonfun$apply$default$3$1.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifier$$anonfun$apply$default$3$1.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifier$$anonfun$mk$default$2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifier$$anonfun$mk$default$2$1.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifier$.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifier$.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifier.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifier.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig$$anonfun$newIdentifier$1.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig$$anonfun$newIdentifier$1.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig$$anonfun$newIdentifier$default$2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig$$anonfun$newIdentifier$default$2$1.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig$.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig$.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifierInitializer$.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifierInitializer$.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/MethodAndHostLimiterIdentifierInitializer.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/MethodAndHostLimiterIdentifierInitializer.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/RateLimmiter.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/RateLimmiter.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/UDPClient.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/UDPClient.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/rateLimiter$.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/rateLimiter$.class[0m
+[0m[[0mdebug[0m] [0m	si/poponline/identifiers/rateLimiter.class[0m
+[0m[[0mdebug[0m] [0m	  /tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/streams/$global/assemblyOption/$global/streams/assembly/47b55c150c0527a056b53a7e82f402e1f5f79594_dir/si/poponline/identifiers/rateLimiter.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

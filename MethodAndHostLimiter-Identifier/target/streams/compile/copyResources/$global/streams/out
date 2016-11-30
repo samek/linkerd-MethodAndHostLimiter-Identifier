@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/src/main/resources/META-INF,/tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/src/main/resources/META-INF/services,/tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/scala-2.11/classes/META-INF/services)[0m
+[0m[[0mdebug[0m] [0m	(/tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/src/main/resources/META-INF/services/io.buoyant.linkerd.IdentifierInitializer,/tmp/linkerd-examples/plugins/MethodAndHostLimiter-Identifier/target/scala-2.11/classes/META-INF/services/io.buoyant.linkerd.IdentifierInitializer)[0m
