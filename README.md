@@ -34,3 +34,5 @@ routers:
 
 Where banThreshold is how many times one ip can access any service in banWindowTime (seconds). 
 If it passes banThreshold it will be banned for the duration of banIntervalCleanUp (seconds)
+
+Currently It's activated only if header contains Cres-Client-IP with the ip value (which is added by our front loadbalancer)
