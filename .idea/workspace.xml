@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88c10844-8985-4839-a30e-3acd75990a9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" afterPath="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" />
     </list>
     <ignored path="plugins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -108,8 +108,8 @@
       <file leaf-file-name="MethodAndHostLimiterIdentifierConfig.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="e#34#84#0" expanded="true" />
               </folding>
@@ -120,11 +120,21 @@
       <file leaf-file-name="MethodAndHostILimiterdentifier.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-358">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="57">
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="e#34#72#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RateLimmiter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,11 +166,12 @@
         <option value="$PROJECT_DIR$/header-classifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/resources/META-INF/services/io.buoyant.linkerd.IdentifierInitializer" />
-        <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.scala" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/config-sample.yaml" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" />
+        <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.scala" />
       </list>
     </option>
   </component>
@@ -1131,7 +1142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1480502751839</updated>
       <workItem from="1480502764603" duration="9516000" />
-      <workItem from="1480515681199" duration="477000" />
+      <workItem from="1480515681199" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="Readme">
       <created>1480516072520</created>
@@ -1147,11 +1158,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480516119367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Readme">
+      <created>1480516161845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480516161845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9993000" />
+    <option name="totallyTimeSpent" value="10375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="592" y="23" width="1770" height="1246" extended-state="0" />
@@ -1260,18 +1278,11 @@
     <entry file="file://$PROJECT_DIR$/header-classifier/src/main/resources/META-INF/services/io.buoyant.linkerd.IdentifierInitializer" />
     <entry file="file://$PROJECT_DIR$/header-classifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala" />
     <entry file="file://$PROJECT_DIR$/header-classifier/src/main/java/si/poponline/identifiers/RateLimmiter.java" />
-    <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,26 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#34#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#34#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/config-sample.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1335,6 +1326,34 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#34#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostLimiterIdentifierConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#34#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/RateLimmiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -17,8 +17,17 @@ public class RateLimmiter {
     private ConcurrentHashMap<String, Integer> bannedIpList = new ConcurrentHashMap<String, Integer>();
     private Integer lastDelete = 0;
     private Integer lastBanDelete = 0;
+    private Integer banThreshold = 10;
+    private Integer banIntervalCleanUP = 60;
+    private Integer timeWindow = 10;
 
     private RateLimmiter() {
+    }
+
+    public RateLimmiter(Integer banThreshold, Integer banIntervalCleanUP, Integer timeWindow) {
+        this.banThreshold = banThreshold;
+        this.banIntervalCleanUP = banIntervalCleanUP;
+        this.timeWindow = timeWindow;
     }
 
     private Integer get_current_time() {
@@ -34,7 +43,7 @@ public class RateLimmiter {
             this.lastBanDelete = this.get_current_time();
         }
 
-        if ( (this.get_current_time() - this.lastDelete)>10) {
+        if ( (this.get_current_time() - this.lastDelete)>this.timeWindow) {
             //we reset it//
             System.out.println("Resseting map");
             for (Map.Entry<String, Integer> entry : this.iplist.entrySet())
@@ -50,7 +59,7 @@ public class RateLimmiter {
 
 
         //delete banned list//
-        if ((this.get_current_time()-this.lastBanDelete>60)) {
+        if ((this.get_current_time()-this.lastBanDelete>this.banIntervalCleanUP)) {
             System.out.println("Resseting banned map");
 
             this.lastBanDelete = this.get_current_time();
