@@ -3,6 +3,9 @@ routers:
   label: incoming
   identifier:
     kind: si.poponline.MethodAndHostLimiter
+    banThreshold: 30
+    banIntervalCleanUp: 600
+    banWindowTime: 10
   interpreter:
     kind: io.l5d.namerd
     dst: /$/inet/namerd-public.marathon.mesos/4100

@@ -13,7 +13,7 @@ object MethodAndHostLimiterIdentifier {
   def mk(
     prefix: Path,
     baseDtab: () => Dtab = () => Dtab.base
-  ): RoutingFactory.Identifier[Request] = MethodAndHostLimiterIdentifier(prefix, false, baseDtab)
+  ): RoutingFactory.Identifier[Request] = MethodAndHostLimiterIdentifier(prefix, false, baseDtab, banThreshold=20, banIntervalCleanUp=600, banWindowTime = 10)
 }
 
 object rateLimiter {
@@ -24,7 +24,10 @@ object rateLimiter {
 case class MethodAndHostLimiterIdentifier(
   prefix: Path,
   uris: Boolean = false,
-  baseDtab: () => Dtab = () => Dtab.base
+  baseDtab: () => Dtab = () => Dtab.base,
+  banThreshold: Integer,
+  banIntervalCleanUp: Integer,
+  banWindowTime: Integer
 ) extends RoutingFactory.Identifier[Request] {
 
   private[this] def suffix(req: Request): Path =
@@ -48,7 +51,7 @@ case class MethodAndHostLimiterIdentifier(
           if (hm.contains("Cres-Client-IP")) {
             val remote_addr = hm.get("Cres-Client-IP")
             //req.remoteAddress = remote_addr;
-
+            RateLimmiter.getInstance().setLimits( banThreshold,  banIntervalCleanUp,  banWindowTime)
             if (RateLimmiter.getInstance().check_ip(remote_addr.get, host.toLowerCase)) {
               dst = mkPath(Path.Utf8("1.1", req.method.toString, host.toLowerCase) ++ suffix(req))
             } else {

@@ -27,4 +27,7 @@ routers:
   label: incoming
   identifier:
     kind: si.poponline.MethodAndHostLimiter
+    banThreshold: 30
+    banIntervalCleanUp: 600
+    banWindowTime: 10
 ```

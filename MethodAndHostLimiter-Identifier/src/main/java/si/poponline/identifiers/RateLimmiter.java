@@ -24,10 +24,12 @@ public class RateLimmiter {
     private RateLimmiter() {
     }
 
-    public RateLimmiter(Integer banThreshold, Integer banIntervalCleanUP, Integer timeWindow) {
+    public void  setLimits(Integer banThreshold, Integer banIntervalCleanUP, Integer timeWindow) {
         this.banThreshold = banThreshold;
         this.banIntervalCleanUP = banIntervalCleanUP;
         this.timeWindow = timeWindow;
+
+        //System.out.print(banThreshold + " "+ banIntervalCleanUP + " " + timeWindow );
     }
 
     private Integer get_current_time() {
@@ -70,11 +72,11 @@ public class RateLimmiter {
             nr = this.iplist.get(ip);
         }
 
-        //if (this.bannedIpList.containsKey(ip) || nr>5  ) {
-        //    System.out.println(ip+ ": is banned!");
-        //    this.bannedIpList.put(ip,nr);
-        //    return false;
-        //}
+        if (this.bannedIpList.containsKey(ip) || nr>this.banThreshold  ) {
+            System.out.println(ip+ ": is banned!");
+            this.bannedIpList.put(ip,nr);
+            return false;
+        }
 
         nr++;
         this.iplist.put(ip,nr);

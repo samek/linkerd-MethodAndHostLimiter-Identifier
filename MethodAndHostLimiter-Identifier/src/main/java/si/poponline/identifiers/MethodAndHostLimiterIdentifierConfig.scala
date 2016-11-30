@@ -18,10 +18,17 @@ object MethodAndHostLimiterIdentifierConfig {
 
 class MethodAndHostLimiterIdentifierConfig extends HttpIdentifierConfig {
   var httpUriInDst: Option[Boolean] = None
+  var banThreshold: Integer = 20
+  var banIntervalCleanUp: Integer = 360
+  var banWindowTime: Integer = 10
 
   @JsonIgnore
   override def newIdentifier(
     prefix: Path,
     baseDtab: () => Dtab = () => Dtab.base
-  ) = MethodAndHostLimiterIdentifier(prefix, httpUriInDst.getOrElse(false), baseDtab)
+
+
+  ) = MethodAndHostLimiterIdentifier(prefix, httpUriInDst.getOrElse(false), baseDtab, banThreshold,banIntervalCleanUp,banWindowTime)
+
+
 }
