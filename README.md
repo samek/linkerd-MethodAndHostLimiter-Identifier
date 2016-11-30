@@ -5,7 +5,7 @@ t
 
 ## Building
 
-This plugin is built with sbt.  Run sbt from the plugins directory.
+This plugin is built with sbt.  Run sbt from the root directory.
 
 ```
 ./sbt MethodAndHostLimiter-Identifier:assembly
