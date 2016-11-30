@@ -29,11 +29,11 @@ public class UDPClient {
             // Create a datagram socket, send the packet through it, close it.
             DatagramSocket dsocket = new DatagramSocket();
             dsocket.send(dgram);
-            System.out.println("SYSTEM OUT: sending UDP: "+message);
+            //System.out.println("SYSTEM OUT: sending UDP: "+message);
             dsocket.close();
         } catch (Exception e) {
             System.err.println(e);
-            System.out.println("SYSTEM ERROR: cannot send UDP: "+e);
+            //System.out.println("SYSTEM ERROR: cannot send UDP: "+e);
         }
     }
 
