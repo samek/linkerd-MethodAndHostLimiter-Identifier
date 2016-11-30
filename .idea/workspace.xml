@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c10844-8985-4839-a30e-3acd75990a9b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="plugins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,8 +86,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -160,6 +160,7 @@
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/src/main/java/si/poponline/identifiers/MethodAndHostILimiterdentifier.scala" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/config-sample.yaml" />
         <option value="$PROJECT_DIR$/MethodAndHostLimiter-Identifier/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1130,7 +1131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1480502751839</updated>
       <workItem from="1480502764603" duration="9516000" />
-      <workItem from="1480515681199" duration="434000" />
+      <workItem from="1480515681199" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="Readme">
       <created>1480516072520</created>
@@ -1139,11 +1140,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480516072520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme">
+      <created>1480516119367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480516119367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9950000" />
+    <option name="totallyTimeSpent" value="9993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="592" y="23" width="1770" height="1246" extended-state="0" />
@@ -1322,8 +1330,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
