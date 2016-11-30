@@ -1,0 +1,12 @@
+routers:
+- protocol: http
+  label: incoming
+  identifier:
+    kind: si.poponline.HttpIdentifier
+  interpreter:
+    kind: io.l5d.namerd
+    dst: /$/inet/namerd-public.marathon.mesos/4100
+  servers:
+  - port: 4140
+    ip: 0.0.0.0
+
