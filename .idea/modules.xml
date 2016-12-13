@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MethodAndHostLimiterIdentifier.iml" filepath="$PROJECT_DIR$/.idea/modules/MethodAndHostLimiterIdentifier.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MethodAndHostLimiterIdentifier-build.iml" filepath="$PROJECT_DIR$/.idea/modules/MethodAndHostLimiterIdentifier-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/headerClassifier.iml" filepath="$PROJECT_DIR$/.idea/modules/headerClassifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/headerClassifier-build.iml" filepath="$PROJECT_DIR$/.idea/modules/headerClassifier-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkerd-methodandhostlimiter-identifier.iml" filepath="$PROJECT_DIR$/.idea/modules/linkerd-methodandhostlimiter-identifier.iml" />
     </modules>
   </component>
