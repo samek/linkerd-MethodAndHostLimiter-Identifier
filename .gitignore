@@ -2,4 +2,5 @@ target/
 .sbt-launch.jar
 .*.swp
 .idea
+.idea-old
 

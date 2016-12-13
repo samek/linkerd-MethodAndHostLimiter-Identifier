@@ -49,8 +49,11 @@ class RateLimmiter private() {
       import scala.collection.JavaConversions._
       for (entry <- this.iplist.entrySet) {
         //System.out.println(entry.getKey() + " - " + entry.getValue());
-        RateLimmiter.log.info("Banned ips:"+entry.getKey() + " - " + entry.getValue())
-        if (entry.getValue > this.banThreshold) UDPClient.Send(entry.getKey, entry.getValue)
+
+        if (entry.getValue > this.banThreshold) {
+          RateLimmiter.log.info("Banned ip:"+entry.getKey() + " - " + entry.getValue())
+          UDPClient.Send(entry.getKey, entry.getValue)
+        }
       }
       this.lastDelete = this.get_current_time
       this.iplist.clear()
@@ -71,7 +74,7 @@ class RateLimmiter private() {
       RateLimmiter.log.info(ip + ": is banned!")
       this.bannedIpList.put(ip, nr)
       //TODO MAKE DRY-RUN
-      return false
+      //return false
     }
     nr += 1
     this.iplist.put(ip, nr)
