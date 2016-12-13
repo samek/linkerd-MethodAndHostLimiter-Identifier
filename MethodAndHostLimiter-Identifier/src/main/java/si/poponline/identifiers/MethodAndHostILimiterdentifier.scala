@@ -17,9 +17,9 @@ object MethodAndHostLimiterIdentifier {
 }
 
 object rateLimiter {
-  def main(): Unit = {
-    val rl = RateLimmiter.getInstance()
-  }
+
+    val rl = RateLimmiter.getInstance
+
 }
 case class MethodAndHostLimiterIdentifier(
   prefix: Path,
@@ -51,8 +51,8 @@ case class MethodAndHostLimiterIdentifier(
           if (hm.contains("Cres-Client-IP")) {
             val remote_addr = hm.get("Cres-Client-IP")
             //req.remoteAddress = remote_addr;
-            RateLimmiter.getInstance().setLimits( banThreshold,  banIntervalCleanUp,  banWindowTime)
-            if (RateLimmiter.getInstance().check_ip(remote_addr.get, host.toLowerCase)) {
+            rateLimiter.rl.setLimits( banThreshold,  banIntervalCleanUp,  banWindowTime)
+            if (rateLimiter.rl.check_ip(remote_addr.get, host.toLowerCase)) {
               dst = mkPath(Path.Utf8("1.1", req.method.toString, host.toLowerCase) ++ suffix(req))
             } else {
 

@@ -1,4 +1,5 @@
 
+version := "0.2"
 def twitterUtil(mod: String) =
   "com.twitter" %% s"util-$mod" %  "6.38.0"
 
@@ -6,14 +7,15 @@ def finagle(mod: String) =
   "com.twitter" %% s"finagle-$mod" % "6.39.0"
 
 def linkerd(mod: String) =
-  "io.buoyant" %% s"linkerd-$mod" % "0.8.3"
+  "io.buoyant" %% s"linkerd-$mod" % "0.8.4"
 
-val headerClassifier =
+val MethodAndHostLimiterIdentifier =
   project.in(file("MethodAndHostLimiter-Identifier")).
     settings(
       scalaVersion := "2.11.7",
       organization := "si.poponline",
       name := "MethodAndHostLimiter-Identifier",
+      version := "0.2",
       resolvers ++= Seq(
         "twitter" at "https://maven.twttr.com",
         "local-m2" at ("file:" + Path.userHome.absolutePath + "/.m2/repository")
