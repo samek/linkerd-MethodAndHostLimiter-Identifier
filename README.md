@@ -54,12 +54,12 @@ Make sure you change:
 ./sbt MethodAndHostLimiter-Identifier:assembly
 mkdir temp
 cd temp
-wget https://github.com/BuoyantIO/linkerd/releases/download/0.8.4/linkerd-0.8.4-exec
-chmod 755 ./linkerd-0.8.4-exec
+wget https://github.com/linkerd/linkerd/releases/download/0.8.6/linkerd-0.8.6-exec
+chmod 755 ./linkerd-0.8.6-exec
 cp ../MethodAndHostLimiter-Identifier/config-sample.yaml
 mkdir plugins
 cp  ../MethodAndHostLimiter-Identifier/target/scala-2.11/MethodAndHostLimiter-Identifier-assembly-0.2.jar plugins/
-./linkerd-0.8.4-exec  config-sample.yaml 
+./linkerd-0.8.6-exec  config-sample.yaml 
 ```
 In another window:
 ```bash
